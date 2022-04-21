@@ -6,6 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 hr {
@@ -90,17 +91,23 @@ blockquote {
   color: var(--global-theme-color);
 }
 
+// Introduction
+.intro {
+  width: 100%;
+}
+
 // Profile
 
 .profile {
-  margin-left: 1rem;
+  margin-left: 2rem;
   width: 100%;
-
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: small;
     p {
+      color: var(--global-text-color-light);
       display: inline-block;
       margin: 0;
     }
@@ -108,8 +115,12 @@ blockquote {
 }
 
 @media (min-width: 576px) {
+  .intro {
+    width: 75%;
+  }
+
   .profile {
-    width: 30%;
+    width: 20%;
     .address {
       p { display: block; }
     }
@@ -164,6 +175,7 @@ blockquote {
     }
   }
   .navbar-brand {
+    margin-left: -0.385em;
     color: var(--global-text-color);
   }
   .navbar-nav .nav-item .nav-link {
@@ -233,12 +245,19 @@ blockquote {
   }
 }
 
+// Logo
+.logo {
+  img {
+    max-height: 40px;
+  }
+}
+
 // Social (bottom)
 
 .social {
-  text-align: center;
+  text-align: left;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.5rem;
     a {
       i::before {
         color: var(--global-text-color);

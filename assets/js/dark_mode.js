@@ -1,13 +1,6 @@
-// function myFunction(x) {
-//     if (x.matches) { // If media query matches
-//       document.body.style.backgroundColor = "yellow";
-//     } else {
-//       document.body.style.backgroundColor = "pink";
-//     }
-//   }
-//   var x = window.matchMedia("(max-width: 700px)")
-//   myFunction(x) // Call listener function at run time
-//   x.addListener(myFunction) // Attach listener function on state changes
+
+// Automatically switch to dark mode
+
 let mode_detect = window.matchMedia("(prefers-color-scheme: light)");
 mode_detect.onchange = (e) => {
     if (e.matches) {
@@ -16,6 +9,14 @@ mode_detect.onchange = (e) => {
         setTheme("dark");
     }
 }
+
+/**
+ * Ref:
+ * https://www.zerostatic.io/docs/jekyll-advance/v2.0/darkmode/
+ * https://github.com/mmistakes/jekyll-theme-basically-basic/issues/109
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme
+ * https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList/change_event#example
+ */
 
 document.addEventListener('DOMContentLoaded', function() {
     const mode_toggle = document.getElementById("light-toggle");

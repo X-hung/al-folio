@@ -1,0 +1,29 @@
+.logoBlack {
+    fill: #00020B;
+}
+
+.textBlack {
+    fill: #00020B;
+}
+
+.textRed {
+    fill: #A51C30;
+}
+
+.strokeColor {
+    stroke: #231F20;
+}
+
+@media (prefers-color-scheme: dark) {
+    .logoBlack {
+        fill: #231F20;
+    }
+
+    .textBlack {
+        fill: #FEFEFE;
+    }
+
+    .strokeColor {
+        stroke: #FEFEFE;
+    }
+}

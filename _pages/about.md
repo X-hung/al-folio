@@ -28,7 +28,7 @@ Hi, 👋
 Welcome to my personal website, where I will update my work status, ongoing projects, as well as published blogs and papers. 
 Here is a brief introduction to me: 
 
-I graduated from an ordinary university in China with a bachelor's degree in computer science. I currently have two master's degrees from the University of Sydney in Australia, which are related to computer science and management. I plan to study for a Master of philosophy degree at the Chinese University of Hong Kong next year.
+I currently have two master's degrees from the University of Sydney in Australia, which are related to computer science and management. I plan to study for a Master of philosophy degree at the Chinese University of Hong Kong next year.
 
 ##### Working Interest
 

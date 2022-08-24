@@ -13,7 +13,7 @@ Web Development (Full-stack), Cloud Native App Development, AI-powered Software 
 ### Education
 
 ##### M.Eng. in IT & IT Management (double degree), Major in Software Engineering, University of Sydney, Sydney, NSW. Aug. 2020 - now (last semester)
-- WAM: 76+ (Distinction)
+- WAM: 80+ (Distinction)
 - Vice Chancellor’s Global Mobility Scholarship, 2021
 
 ##### B.Eng. in Computer Science, Wuhan Donghu University, Wuhan, Hubei. Sep. 2015 - Jun. 2019

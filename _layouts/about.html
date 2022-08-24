@@ -5,17 +5,39 @@ layout: default
 <!-- about.html -->
 <div class="post">
   <header class="post-header">
+    <div class="introduction">
+      <h1 class="post-title">
+        {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name
+        }}
+        {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
+      </h1>
+      <p class="desc text-muted">{{ page.subtitle }}</p>
+    </div>
+  </header>
+
+  <article>
     {% if page.profile -%}
-    <div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
-      {%- if page.profile.image %}
-      {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
-      {% include figure.html
-      path=profile_image_path
-      class="img-fluid z-dept-1 rounded-circle"
-      alt=page.profile.image -%}
-      {% endif -%}
+    <div class="profile pr-4 float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+      <div class="profile-wrapper">
+
+
+        {%- if page.profile.image %}
+        {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
+        {% include figure.html
+        path=profile_image_path
+        class="profile-avatar img-fluid z-dept-1 rounded-circle"
+        alt=page.profile.image -%}
+        {% endif -%}
+      </div>
+      <img class="profile-badge mx-auto d-block"
+        src="https://img.shields.io/badge/IEEE%20Student%20Fellow-00629B?style=flat-square" alt="badge" />
+      <!-- <img class="profile-badge mx-auto d-block" src="https://img.shields.io/badge/ACM%20Student%20Fellow-0085CA?style=flat-square" alt="badge"/> -->
+      <!-- <img class="profile-badge mx-auto d-block" src="https://img.shields.io/badge/YouTube%20Premium-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="badge"/> -->
+      <img class="profile-badge mx-auto d-block"
+        src="https://img.shields.io/badge/Bilibili%20Lv.5%20大会员-00A1D6?style=flat-square&logo=bilibili&logoColor=white"
+        alt="badge" />
       {%- if page.profile.address %}
-      <div class="address">
+      <div class="address mt-3">
         {{ page.profile.address }}
       </div>
       {%- endif %}
@@ -30,19 +52,14 @@ layout: default
           {{ site.contact_note }}
         </div>
 
+        <div class="player-container mt-4">
+          <audio class="d-block" controls loop src="assets/media/temple_of_time_repentance.mp3">Your browser does not support the <code>audio</code> element.</audio>
+        </div>
+
       </div>
       {%- endif %}
     </div>
     {%- endif %}
-    <h1 class="post-title">
-      {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-      {{ site.last_name }}{%- else -%}{{ site.title }}{%- endif %}
-    </h1>
-    <p class="desc">{{ page.subtitle }}</p>
-
-  </header>
-
-  <article>
     <div class="clearfix intro">
       {{ content }}
     </div>
@@ -54,6 +71,10 @@ layout: default
     {% if page.selected_papers -%}
     <!-- Selected papers -->
     {%- include selected_papers.html %}
+    {%- endif %}
+    {% if page.disclaimer -%}
+    <!-- Disclaimer -->
+    {%- include disclaimer.html %}
     {%- endif %}
   </article>
 

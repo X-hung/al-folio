@@ -101,6 +101,36 @@ blockquote {
 .profile {
   margin-left: 2rem;
   width: 100%;
+  .profile-wrapper {
+    background: linear-gradient(115deg, pink, #94bbe9);
+    border-radius: 50%;
+  }
+  .profile-avatar {
+    width: 100%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: var(--global-avatar-border-color);
+    // border-color: lightgrey;
+    transition: transform 1s ease-in-out;
+  }
+  .profile-avatar:hover {
+    transform: rotate(360deg);
+  }
+  audio {
+    width: 10vw;
+    height: 4vh;
+    background-color: #F1F3F4;
+    border-radius: 8px;
+    margin-left: -0.1rem;
+  }
+  .profile-badge {
+    width: 60%;
+    margin-bottom: 4px;
+    border-style: hidden;
+    border-radius: 3px;
+    align-self: center;
+  }
+ 
   .address {
     margin-bottom: 5px;
     margin-top: 5px;
@@ -121,6 +151,7 @@ blockquote {
 
   .profile {
     width: 20%;
+    margin-top: -6.75rem;
     .address {
       p { display: block; }
     }
@@ -139,12 +170,18 @@ blockquote {
   }
 }
 
+// news
+
+.news .table th,
+.news .table td {
+  padding-left: 0;
+}
 
 // Navbar customization
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  // border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
@@ -177,6 +214,8 @@ blockquote {
   .navbar-brand {
     margin-left: -0.385em;
     color: var(--global-text-color);
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
@@ -248,7 +287,9 @@ blockquote {
 // Logo
 .logo {
   img {
-    max-height: 40px;
+    margin-top: 10px;
+    // max-height: 40px;
+    height: 4vh;
   }
 }
 
@@ -275,6 +316,11 @@ blockquote {
   }
 }
 
+.disclaimer {
+  line-height: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 // Footer
 footer.fixed-bottom {

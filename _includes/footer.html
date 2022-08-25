@@ -5,9 +5,11 @@
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
+        <span class="last-update float-right pr-2">
+          {%- if site.last_updated -%}
+          Last updated: {{ "now" | date: '%B %d, %Y' }}.
+          {%- endif %}
+        </span>
       </div>
     </footer>
     {%- else -%}
@@ -17,9 +19,12 @@
         {%- if site.impressum_path -%}
         <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
         {%- endif -%}
-        {%- if site.last_updated -%}
-        Last updated: {{ "now" | date: '%B %d, %Y' }}.
-        {%- endif %}
+        <p class="last-update ml-5">
+          {%- if site.last_updated -%}
+          Last updated: {{ "now" | date: '%B %d, %Y' }}.
+          {%- endif %}
+        </p>
+
       </div>
     </footer>
     {%- endif %}

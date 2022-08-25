@@ -8,34 +8,35 @@ subtitle:
 profile:
   align: right
   image: portrait_s.png
-  logo: harvard_seas.png
+  # logo: harvard_seas.png
+  logo: USydLogoBlack.svg
   logo_dark: harvard_seas_dark.png
   # change size in _base.scss
   address: >
     <p>233 J12 Building</p>
     <p>School of Computer Science</p>
-    <p>Camperdown, NSW 2008</p>
+    <p>Camperdown, NSW 2006</p>
     <p>Australia</p>
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
-disclaimer: true
+disclaimer: false
 ---
 
 Hi, 👋
 
 Welcome to my personal website, where I will update my work status, ongoing projects, as well as published blogs and papers. 
-Here is a brief introduction to me: 
+Here is a brief introduction to myself: 
 
-I currently have two master's degrees from the University of Sydney in Australia, which are related to computer science and management. I plan to study for a Master of philosophy degree at the Chinese University of Hong Kong next year.
+I recently graduated from the University of Sydney in Australia, with two Master's degrees, which are related to computer science and management. Prior to this, I obtained a Bachelor of Engineering Degree in Computer Science in China. Currently, I have been admitted to the Chinese University of Hong Kong, where I plan to study for a Master of Philosophy degree in 2023 (maybe).
 
-##### Working Interest
+##### # Working Interest
 
-I would like to work in various industries as a software engineer, specification could be web development, cloud native application development, AI-driven application development, and project managment or consultant.
+I would like to work in various industries (e.g. IT, Finance, Healthcare, Education) as a software engineer, specification could be web development, cloud native application development, AI-driven application development, and project managment or consulting.
 
-##### Research Interest
-My current research interests are focused on computer science and software engineering, including but not limited to distributed systems and cloud computing, database systems, human-computer interaction, I am also fine with AI-related topics (a little bit).
+##### # Research Interest
+My current research interests are focused on computer science and software engineering, including but not limited to distributed systems, cloud computing, database systems, and human-computer interaction, I am also fine with AI-related topics (not too much).
 
 I have a tendency to study for a doctorate degree. If you can provide relevant research opportunities, please feel free to contact me at your earlist convenience.
 

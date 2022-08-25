@@ -17,7 +17,7 @@ layout: default
 
   <article>
     {% if page.profile -%}
-    <div class="profile pr-4 float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+    <div class="profile px-2 float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
       <div class="profile-wrapper">
 
 
@@ -30,32 +30,32 @@ layout: default
         {% endif -%}
       </div>
       <img class="profile-badge mx-auto d-block"
-        src="https://img.shields.io/badge/IEEE%20Student%20Fellow-00629B?style=flat-square" alt="badge" />
+        src="https://img.shields.io/badge/IEEE%20Student%20Fellow-00629B?style=flat-square?logoWidth=40" alt="badge" />
       <!-- <img class="profile-badge mx-auto d-block" src="https://img.shields.io/badge/ACM%20Student%20Fellow-0085CA?style=flat-square" alt="badge"/> -->
       <!-- <img class="profile-badge mx-auto d-block" src="https://img.shields.io/badge/YouTube%20Premium-FF0000?style=flat-square&logo=youtube&logoColor=white" alt="badge"/> -->
       <img class="profile-badge mx-auto d-block"
         src="https://img.shields.io/badge/Bilibili%20Lv.5%20大会员-00A1D6?style=flat-square&logo=bilibili&logoColor=white"
         alt="badge" />
       {%- if page.profile.address %}
-      <div class="address mt-3">
+      <div class="address mt-4">
         {{ page.profile.address }}
       </div>
       {%- endif %}
       {%- if page.social %}
       <!-- Social -->
-      <div class="social">
+      <div class="social mt-4">
         <div class="contact-icons">
           {% include social.html %}
         </div>
 
-        <div class="contact-note">
+        <div class="contact-note mt-2">
           {{ site.contact_note }}
         </div>
 
-        <div class="player-container mt-4">
-          <audio class="d-block" controls loop src="assets/media/temple_of_time_repentance.mp3">Your browser does not support the <code>audio</code> element.</audio>
-        </div>
-
+      </div>
+      <div class="player-container mt-4">
+        <audio class="d-block" controls loop src="assets/media/temple_of_time_repentance.mp3">Your browser does not
+          support the <code>audio</code> element.</audio>
       </div>
       {%- endif %}
     </div>

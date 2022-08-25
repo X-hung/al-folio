@@ -3,6 +3,7 @@ layout: page
 permalink: /resume/
 title: resume
 description: This is a detailed resume that records all my experiences, for simplified one, please download the PDF version.
+reference: https://github.com/alshedivat/al-folio/commit/6d66ae8b43b0677ac89587293042bf6ce7baf3e3#diff-0bab287252201fd536a4384351cf11adb2375f04f648563bdf66e9ec55189196
 nav: true
 ---
 

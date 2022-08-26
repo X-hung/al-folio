@@ -4,7 +4,8 @@ title: about
 permalink: /
 subtitle: 
   <a href='https://www.sydney.edu.au/'>University of Sydney</a>. Teaching Assistant in the School of Computer Science.
-
+  <br/>
+  👨🏻‍💻 Open to work -> Software Engineer, Full-time
 profile:
   align: right
   image: portrait_s.png
@@ -38,7 +39,7 @@ I would like to work in various industries (e.g. IT, Finance, Healthcare, Educat
 ##### # Research Interest
 My current research interests are focused on computer science and software engineering, including but not limited to distributed systems, cloud computing, database systems, and human-computer interaction, I am also fine with AI-related topics (not too much).
 
-I have a tendency to pursue a doctorate degree. If you can provide relevant research opportunities, please feel free to contact me at your earliest convenience.
+I have a tendency to pursue a doctorate degree. If you can provide relevant research opportunities, please feel free to contact me at your earliest convenience. I will appreciate it.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

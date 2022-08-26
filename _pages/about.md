@@ -33,7 +33,7 @@ Hi, 👋
 Welcome to my personal website, where I will update my work status, ongoing projects, as well as published blogs and papers. 
 Here is a brief introduction to myself: 
 
-I recently graduated from the University of Sydney in Australia, with two Master's degrees, which are related to computer science and management. Prior to this, I obtained a Bachelor of Engineering Degree in Computer Science in China. Currently, I have been admitted to the Chinese University of Hong Kong, where I plan to study for a Master of Philosophy degree in 2023 (maybe).
+I recently graduated from the University of Sydney in Australia, with two Master's degrees, which are related to computer science and management. Prior to this, I obtained a Bachelor of Engineering Degree in Computer Science in China. Currently, I have been admitted to the Chinese University of Hong Kong, where I plan to study for a Master of Arts degree in Philosophy in the future.
 
 ##### # Working Interest
 

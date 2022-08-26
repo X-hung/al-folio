@@ -14,6 +14,7 @@ profile:
   # logo: harvard_seas.png
   logo: USydLogoBlack.svg
   logo_dark: harvard_seas_dark.png
+  logo_dark: USydLogoWhite.svg
   # change size in _base.scss
   address: >
     <p>233 J12 Building</p>

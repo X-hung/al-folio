@@ -30,10 +30,32 @@ body.sticky-bottom-footer {
   .container {
     max-width: 65%;
   }
+
+  .profile {
+    margin-top: -9.75rem;
+    margin-left: 2rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction:row-reverse;
+  }
+}
+
+@media (max-width: 390px) {
+  .about {
+    display: block;
+    // flex-direction:row-reverse;
+  }
+
+  .profile {
+    margin-left: 0rem;
+  }
 }
 
 // Profile
 .profile {
+  
   // img {
   //   width: 90%;
   //   border-style: solid;

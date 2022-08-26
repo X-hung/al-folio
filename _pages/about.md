@@ -5,6 +5,8 @@ permalink: /
 subtitle: 
   <a href='https://www.sydney.edu.au/'>University of Sydney</a>. Teaching Assistant in the School of Computer Science.
   <br/>
+  -----------------------------------------
+  <br/>
   👨🏻‍💻 Open to work -> Software Engineer, Full-time
 profile:
   align: right

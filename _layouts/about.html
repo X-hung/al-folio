@@ -3,8 +3,14 @@ layout: default
 ---
 
 <!-- about.html -->
+<!-- <div class="about d-flex flex-row-reverse"> -->
+
+
+
 <div class="post">
+
   <header class="post-header">
+
     <div class="introduction">
       <h1 class="post-title">
         {% if site.title == "blank" -%}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name
@@ -15,12 +21,11 @@ layout: default
     </div>
   </header>
 
-  <article>
+  <div class="about">
     {% if page.profile -%}
-    <div class="profile px-2 float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+    <!-- <div class="profile px-2 float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}"> -->
+    <div class="profile px-2 pb-5">
       <div class="profile-wrapper">
-
-
         {%- if page.profile.image %}
         {%- assign profile_image_path = page.profile.image | prepend: 'assets/img/' -%}
         {% include figure.html
@@ -60,22 +65,25 @@ layout: default
       {%- endif %}
     </div>
     {%- endif %}
-    <div class="clearfix intro">
-      {{ content }}
-    </div>
-    <br />
-    {% if page.news -%}
-    <!-- News -->
-    {%- include news.html %}
-    {%- endif %}
-    {% if page.selected_papers -%}
-    <!-- Selected papers -->
-    {%- include selected_papers.html %}
-    {%- endif %}
-    {% if page.disclaimer -%}
-    <!-- Disclaimer -->
-    {%- include disclaimer.html %}
-    {%- endif %}
-  </article>
+    <article>
 
+      <div class="clearfix intro">
+        {{ content }}
+      </div>
+      <br />
+      {% if page.news -%}
+      <!-- News -->
+      {%- include news.html %}
+      {%- endif %}
+      {% if page.selected_papers -%}
+      <!-- Selected papers -->
+      {%- include selected_papers.html %}
+      {%- endif %}
+      {% if page.disclaimer -%}
+      <!-- Disclaimer -->
+      {%- include disclaimer.html %}
+      {%- endif %}
+    </article>
+
+  </div>
 </div>
